@@ -17,6 +17,7 @@
     background: #bbb;
     padding: 10px;
     border-radius: 20px;
+    box-shadow: 4px 4px 14px #222;
 }
 
 .img_1{
@@ -47,6 +48,11 @@ border-radius: 20px;
 
 .hobby{
     margin-bottom: 30px;
+}
+ 
+.table{
+    width: 85%;
+    margin-left: 20px;
 }
 
 .connection{
