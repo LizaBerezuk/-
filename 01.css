@@ -4,6 +4,15 @@
     font: normal 16px 'Open Sans', sans-serif;
 }
 
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+
+.inf{
+    color: #555;
+}
+
 .img_1{
     background: #bbb;
     padding: 10px;
@@ -25,37 +34,32 @@
 .header{
 background:#ddd;
 margin-bottom: 10px;
-padding: 10px;
+padding: 25px;
 border-radius: 20px;
 }
 
-.hobby{
+.main{
     background: #ddd;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 25px;
     border-radius: 20px;
 }
 
-.work{
-    background: #ddd;
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 20px;
+.hobby{
+    margin-bottom: 30px;
 }
 
 .connection{
     background: #ddd;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 25px;
     border-radius: 20px;
 }
 
 .footer{
-    /* margin-bottom: 20px;
+    margin-bottom: 20px;
     margin-top: 10px;
-    padding: 10px; */
-    margin: auto;
-    max-width: 220px;
+    padding: 10px; 
 }
  
  .send{
