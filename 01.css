@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Condensed:ital@1&family=Roboto:ital@1&display=swap');
+
+.body{
+    font: normal 16px 'Open Sans', sans-serif;
+}
+
+.img_1{
+    background: #bbb;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.img_1{
+    transition: 2s;
+}
+.img_1:haver{
+    transform: scale(1.2);
+}
+
+.body{
+ background: #bbb;
+ color: rgb(40, 40, 41);
+}
+
+.header{
+background:#ddd;
+margin-bottom: 10px;
+padding: 10px;
+border-radius: 20px;
+}
+
+.hobby{
+    background: #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.work{
+    background: #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.connection{
+    background: #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.footer{
+    /* margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px; */
+    margin: auto;
+    max-width: 220px;
+}
+ 
+ .send{
+     background-color: #caebff;
+ }
