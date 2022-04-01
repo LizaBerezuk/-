@@ -28,10 +28,6 @@
     display: inline-block;
 }
 
-@media(max-width:270px){
-
-}
-
 .img_nails{
     transition: all .2s;
 }
@@ -175,11 +171,13 @@ a:hover{
     padding: 0;
     display: flex;
     padding: 0 20px;
+
  }
 
  .navbar ul li{
     margin-right: 10px;
     padding: 10px;
+    text-align: center
  }
 
  .navbar ul li:hover{
