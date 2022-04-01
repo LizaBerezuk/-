@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name ="description" content ="Это базовый куст по HTML и CSS" >
+    <meta name ="description" content ="Елизавета Березюк. Резюме. Краткая инвормация и сведения." >
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name ="keywords" content="HTML, course, css tags, tag">
-    <title>HTML and CSS Course</title>
+    <title>Елизавета Березюк</title>
     <link rel="stylesheet" href="01.css">
 </head>
 <body class="body">
@@ -22,14 +22,17 @@
     </nav>
     <div class="container">
         <header class="header">
-            <img src="photo_2021-06-08_11-35-11.jpg" width="200" alt="Моё фото" class="img_1">
-            <h1>Елизавета Березюк</h1>
+            <img src="photo_2021-06-08_11-35-11.jpg" alt="Моё фото" class="img_1">
             <div class="inf">
+                <h1>Елизавета Березюк</h1>
+                <p><strong>Дата рождения:</strong> 14.08.2003</p>
+                <p><strong>Адрес:</strong> г.Брест, ул.Варшавское шоссе 15, 99</p>
+                <p><strong>Контактный номер:</strong> +375 (33) 330-70-38 (МТС)</h4>
                 <p >Хочу стать <strong>хорошим специалистом</strong> в своей сфере,и именно поэтому я обучаюсь HTML и CSS. <strong>Учусь</strong> в БрГТУ на специальности "Промышленная электроника".</p>
                 <p>В свободное время <em>занимаюсь маникюром</em>, люблю читать книги и путешествовать.</p>
             
             </div>
-           </header>
+        </header>
         <div class="main">
             <div class="hobby">
                 <h2>Мои хобби:</h2>
@@ -52,38 +55,45 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>LPTracer</td>
-                            <td>Frontend</td>
-                            <td>2015-2016</td>
-                        </tr>
-                        <tr>
-                            <td>EPAM</td>
-                            <td>Software Engineer</td>
-                            <td>2016-2017</td>
-                        </tr>
-                        <tr>
-                            <td>Software Outsourcing Services</td>
-                            <td>Senior Frontend</td>
-                            <td>2017-2019</td>
+                            <td>Предпринематель</td>
+                            <td>Nail-мастер</td>
+                            <td>2019-сейчас</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
+        <div class="websites">
+            <h2>Nail индустрия</h2>
+            <div class="nail">
+                <p>Вся моя жизнь связана с искусством. Именно поэтому я нашла способ воплотить всю свою фантазию и усидчивость в маникюре.<strong> Я являюсь мастером маникюра уже более 3-х лет.</strong> Снизу показаны пару моих работ.</p>
+                <img src="photo_2022-04-01_18-20-30 (2).jpg" alt="ногти" class="img_nails">
+                <img src="photo_2022-04-01_18-20-30 (3).jpg" alt="ногти" class="img_nails">
+                <img src="photo_2022-04-01_18-20-30.jpg" alt="ногти" class="img_nails">
+                <img src="photo_2022-04-01_18-20-30 (4).jpg" alt="ногти" class="img_nails">
+                <img src="photo_2022-04-01_18-20-34.jpg" alt="ногти" class="img_nails">
+                <img src="photo_2022-04-01_18-20-29.jpg" alt="ногти" class="img_nails">
+            </div>
+            <a href="https://www.instagram.com/nails.brest_liza/" target="_blank" class="site">Nail страница</a>
+            <hr>
+        </div>
         <div class="connection">
             <form class="form">
                 <h3>Связаться со мной</h3>
-                <div class="form-group">
-                    <label for="name">Ваше имя:</label>
-                    <input type="text" id="name" placeholder="Введите имя">
-                </div>
-                <div class="form-group">
-                    <label for="email">Ваш email:</label>
-                    <input type="email" id="email" placeholder="Введите email">
+
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email" placeholder="Введите email">
+                    </div>
                 </div>
                 <div class="form-group">
                     <label for="massage">Ваше сообщение:</label>
-                    <br>
                     <textarea name="massage" placeholder="Введите сообщение..." ></textarea>
                 </div>
                 <button type="submit" class="btn">Отправить!</button>
